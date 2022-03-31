@@ -1,0 +1,42 @@
+.modal {
+  font-family: 'Roboto', sans-serif;
+
+  .name {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .image {
+    display: block;
+    width: 200px;
+    margin: 0 auto 15px;
+  }
+
+  .info {
+    > * {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    strong {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+  }
+
+  .stats,
+  .types,
+  .abilities {
+    strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+}
